@@ -10,7 +10,6 @@ dependencies = [
     "tenacity>=8.2.3",
     "transformers",
     "torch",
-    "lean-dojo",
     "vllm",
     "autoawq", # quantization with vllm
 ]
@@ -36,4 +35,6 @@ dev = [
     "black>=23.7.0",
     "ruff>=0.0.285",
     "types-PyYAML>=6.0.12.11",
+    "-e lean-dojo @ file:///${PROJECT_ROOT}/LeanDojo",
 ]
+

@@ -1,10 +1,11 @@
 # https://github.com/wellecks/llemma_formal2formal/blob/master/scripts/eval_llemma7b.sh
 
+NUM_EXAMPLES=100
 MAX_ITERS=100
 NUM_SAMPLES=32
 TEMPERATURES="0.0"
 TIMEOUT=600
-NUM_SHARDS=4
+NUM_SHARDS=1
 DATASET="minif2f-test"
 DATA="data/minif2f.jsonl"
 
@@ -16,10 +17,10 @@ OUTPUT_DIR="output/${NAME}_minif2f_test"
 #for SHARD in 0 1 2 3
 for SHARD in 0
 do
-  echo HI
-  CUDA_VISIBLE_DEVICES=${SHARD} pdm run python -m pdb \
+  CUDA_VISIBLE_DEVICES=${SHARD} pdm run python \
       runsearch.py \
       --dataset-name ${DATASET} \
+      --num-examples ${NUM_EXAMPLES} \
       --temperatures ${TEMPERATURES} \
       --timeout ${TIMEOUT} \
       --num-shards ${NUM_SHARDS} \

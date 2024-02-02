@@ -294,8 +294,6 @@ if __name__ == '__main__':
     parser.add_argument('--temperatures', type=float, nargs='+', default=[0.0])
     args = parser.parse_args()
 
-    model, tokenizer = _load_model(args.model_name, args.tp_degree)
-
     output_dir = make_output_dir(args.output_dir)
 
     repo, data = _load_data(args.dataset_name, args.dataset_path)
@@ -307,6 +305,9 @@ if __name__ == '__main__':
         results, data = resume_from(args.resume_from, data)
     else:
         results = []
+
+    #model, tokenizer = _load_model(args.model_name, args.tp_degree)
+    model, tokenizer = None, None
 
     start = time.time()
     for example in tqdm(data, total=len(data)):

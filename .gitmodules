@@ -1,0 +1,3 @@
+[submodule "LeanDojo"]
+	path = LeanDojo
+	url = ssh://git@github.com/justinchiu/LeanDojo
