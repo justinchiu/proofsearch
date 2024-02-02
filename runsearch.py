@@ -208,9 +208,13 @@ def _save(model_name, results, args_dict, output_dir, shard):
 
 def _load_model(model_name, tp_degree):
     model = vllm.LLM(
-        model=model_name,
+        #model=model_name,
+        model="TheBloke/llemma_7b-AWQ",
+        quantization = "awq",
         tensor_parallel_size=tp_degree,
-        dtype='bfloat16',
+        #dtype='bfloat16',
+        #dtype='float16',
+        dtype = "auto",
         max_num_batched_tokens=4096
     )
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)

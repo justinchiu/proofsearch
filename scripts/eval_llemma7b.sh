@@ -13,7 +13,23 @@ NAME="llemma7b"
 
 OUTPUT_DIR="output/${NAME}_minif2f_test"
 
-for SHARD in 0 1 2 3
+#for SHARD in 0 1 2 3
+for SHARD in 0
 do
-  CUDA_VISIBLE_DEVICES=${SHARD} python runsearch.py --dataset-name ${DATASET} --temperatures ${TEMPERATURES} --timeout ${TIMEOUT} --num-shards ${NUM_SHARDS} --shard ${SHARD} --model-name ${MODEL} --max-iters ${MAX_ITERS} --dataset-path ${DATA} --num-samples ${NUM_SAMPLES} --early-stop --output-dir ${OUTPUT_DIR} &> ${NAME}_shard${SHARD}.out &
+  echo HI
+  CUDA_VISIBLE_DEVICES=${SHARD} pdm run python -m pdb \
+      runsearch.py \
+      --dataset-name ${DATASET} \
+      --temperatures ${TEMPERATURES} \
+      --timeout ${TIMEOUT} \
+      --num-shards ${NUM_SHARDS} \
+      --shard ${SHARD} \
+      --model-name ${MODEL} \
+      --max-iters ${MAX_ITERS} \
+      --dataset-path ${DATA} \
+      --num-samples ${NUM_SAMPLES} \
+      --early-stop \
+      --output-dir ${OUTPUT_DIR} #\
+      #&> ${NAME}_shard${SHARD}.out &
+
 done
