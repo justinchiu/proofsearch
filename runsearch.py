@@ -306,8 +306,8 @@ if __name__ == '__main__':
     else:
         results = []
 
-    #model, tokenizer = _load_model(args.model_name, args.tp_degree)
-    model, tokenizer = None, None
+    model, tokenizer = _load_model(args.model_name, args.tp_degree)
+    #model, tokenizer = None, None
 
     start = time.time()
     for example in tqdm(data, total=len(data)):
