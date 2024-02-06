@@ -1,0 +1,2129 @@
+{
+    "results": [
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2019_p21",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2019_p21",
+                "statement": "theorem amc12a_2019_p21 (z : \u2102) (h\u2080 : z = (1 + Complex.I) / Real.sqrt 2) :\n    ((\u2211 k : \u2124 in Finset.Icc 1 12, z ^ k ^ 2) * (\u2211 k : \u2124 in Finset.Icc 1 12, 1 / z ^ k ^ 2)) = 36",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2015_p10",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2015_p10",
+                "statement": "theorem amc12a_2015_p10 (x y : \u2124) (h\u2080 : 0 < y) (h\u2081 : y < x) (h\u2082 : x + y + x * y = 80) : x = 26",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2008_p8",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2008_p8",
+                "statement": "theorem amc12a_2008_p8 (x y : \u211d) (h\u2080 : 0 < x \u2227 0 < y) (h\u2081 : y ^ 3 = 1)\n    (h\u2082 : 6 * x ^ 2 = 2 * (6 * y ^ 2)) : x ^ 3 = 2 * Real.sqrt 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_182",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_182",
+                "statement": "theorem mathd_algebra_182 (y : \u2102) : 7 * (3 * y + 2) = 21 * y + 14",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "aime_1984_p5",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "aime_1984_p5",
+                "statement": "theorem aime_1984_p5 (a b : \u211d) (h\u2080 : Real.logb 8 a + Real.logb 4 (b ^ 2) = 5)\n    (h\u2081 : Real.logb 8 b + Real.logb 4 (a ^ 2) = 7) : a * b = 512",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_780",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_780",
+                "statement": "theorem mathd_numbertheory_780 (m x : \u2115) (h\u2080 : 10 \u2264 m) (h\u2081 : m \u2264 99) (h\u2082 : 6 * x % m = 1)\n    (h\u2083 : (x - 6 ^ 2) % m = 0) : m = 43",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_116",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_116",
+                "statement": "theorem mathd_algebra_116 (k x : \u211d) (h\u2080 : x = (13 - Real.sqrt 131) / 4)\n    (h\u2081 : 2 * x ^ 2 - 13 * x + k = 0) : k = 19 / 4",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_13",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_13",
+                "statement": "theorem mathd_numbertheory_13 (u v : \u2115) (S : Set \u2115)\n    (h\u2080 : \u2200 n : \u2115, n \u2208 S \u2194 0 < n \u2227 14 * n % 100 = 46) (h\u2081 : IsLeast S u)\n    (h\u2082 : IsLeast (S \\ {u}) v) : (u + v : \u211a) / 2 = 64",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_169",
+                    "proof": [
+                        "norm_num",
+                        "ring"
+                    ],
+                    "score": 1.0762603916955413,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 Nat.gcd 20! 200000 = 40000"
+                        },
+                        {
+                            "tactic": "ring",
+                            "state_before": "\u22a2 Nat.gcd\n      (succ 19 *\n        (succ 18 *\n          (succ 17 *\n            (succ 16 *\n              (succ 15 *\n                (succ 14 *\n                  (succ 13 *\n                    (succ 12 *\n                      (succ 11 *\n                        (succ 10 *\n                          (succ 9 *\n                            (succ 8 *\n                              (succ 7 * (succ 6 * (succ 5 * (succ 4 * (succ 3 * (succ 2 * succ 1))))))))))))))))))\n      200000 =\n    40000"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -26.815720796585083,
+                    "iteration": 1
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_169",
+                "statement": "theorem mathd_numbertheory_169 : Nat.gcd 20! 200000 = 40000",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2009_p9",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2009_p9",
+                "statement": "theorem amc12a_2009_p9 (a b c : \u211d) (f : \u211d \u2192 \u211d) (h\u2080 : \u2200 x, f (x + 3) = 3 * x ^ 2 + 7 * x + 4)\n    (h\u2081 : \u2200 x, f x = a * x ^ 2 + b * x + c) : a + b + c = 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2019_p9",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2019_p9",
+                "statement": "theorem amc12a_2019_p9 (a : \u2115 \u2192 \u211a) (h\u2080 : a 1 = 1) (h\u2081 : a 2 = 3 / 7)\n    (h\u2082 : \u2200 n, a (n + 2) = a n * a (n + 1) / (2 * a n - a (n + 1))) :\n    \u2191(a 2019).den + (a 2019).num = 8078",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_13",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_13",
+                "statement": "theorem mathd_algebra_13 (a b : \u211d)\n    (h\u2080 : \u2200 x, x - 3 \u2260 0 \u2227 x - 5 \u2260 0 \u2192 4 * x / (x ^ 2 - 8 * x + 15) = a / (x - 3) + b / (x - 5)) :\n    a = -6 \u2227 b = 10",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "induction_sum2kp1npqsqm1",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "induction_sum2kp1npqsqm1",
+                "statement": "theorem induction_sum2kp1npqsqm1 (n : \u2115) :\n    (\u2211 k in Finset.range n, 2 * k + 3) = (n + 1) ^ 2 - 1",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "aime_1991_p6",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "aime_1991_p6",
+                "statement": "theorem aime_1991_p6 (r : \u211d) (h\u2080 : (\u2211 k in Finset.Icc (19 : \u2115) 91, Int.floor (r + k / 100)) = 546) :\n    Int.floor (100 * r) = 743",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_149",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.35084725885614415,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 \u2211 k in Finset.filter (fun x => x % 8 = 5 \u2227 x % 6 = 3) (Finset.range 50), k = 66"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -8.199445009231567,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_149",
+                "statement": "theorem mathd_numbertheory_149 :\n    (\u2211 k in Finset.filter (fun x => x % 8 = 5 \u2227 x % 6 = 3) (Finset.range 50), k) = 66",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "imo_1984_p2",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "imo_1984_p2",
+                "statement": "theorem imo_1984_p2 (a b : \u2115) (h\u2080 : 0 < a \u2227 0 < b) (h\u2081 : \u00ac7 \u2223 a) (h\u2082 : \u00ac7 \u2223 b) (h\u2083 : \u00ac7 \u2223 a + b)\n    (h\u2084 : 7 ^ 7 \u2223 (a + b) ^ 7 - a ^ 7 - b ^ 7) : 19 \u2264 a + b",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2008_p4",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2008_p4",
+                "statement": "theorem amc12a_2008_p4 : (\u220f k in Finset.Icc (1 : \u2115) 501, ((4 : \u211d) * k + 4) / (4 * k)) = 502",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "imo_2006_p6",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "imo_2006_p6",
+                "statement": "theorem imo_2006_p6 (a b c : \u211d) :\n    a * b * (a ^ 2 - b ^ 2) + b * c * (b ^ 2 - c ^ 2) + c * a * (c ^ 2 - a ^ 2) \u2264\n      9 * Real.sqrt 2 / 32 * (a ^ 2 + b ^ 2 + c ^ 2) ^ 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_462",
+                    "proof": [
+                        "linarith"
+                    ],
+                    "score": 0.5760401838662801,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "linarith",
+                            "state_before": "\u22a2 (1 / 2 + 1 / 3) * (1 / 2 - 1 / 3) = 5 / 36"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -10.617757558822632,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_algebra_462",
+                "statement": "theorem mathd_algebra_462 : ((1 : \u211a) / 2 + 1 / 3) * (1 / 2 - 1 / 3) = 5 / 36",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "imo_1964_p1_2",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "imo_1964_p1_2",
+                "statement": "theorem imo_1964_p1_2 (n : \u2115) : \u00ac7 \u2223 2 ^ n + 1",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_221",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_221",
+                "statement": "theorem mathd_numbertheory_221 (S : Finset \u2115)\n    (h\u2080 : \u2200 x : \u2115, x \u2208 S \u2194 0 < x \u2227 x < 1000 \u2227 x.divisors.card = 3) : S.card = 11",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_64",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_64",
+                "statement": "theorem mathd_numbertheory_64 : IsLeast { x : \u2115 | 30 * x \u2261 42 [MOD 47] } 39",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "imo_1987_p4",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "imo_1987_p4",
+                "statement": "theorem imo_1987_p4 (f : \u2115 \u2192 \u2115) : \u2203 n, f (f n) \u2260 n + 1987",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_33",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_33",
+                "statement": "theorem mathd_numbertheory_33 (n : \u2115) (h\u2080 : n < 398) (h\u2081 : n * 7 % 398 = 1) : n = 57",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12_2001_p9",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12_2001_p9",
+                "statement": "theorem amc12_2001_p9 (f : \u211d \u2192 \u211d) (h\u2080 : \u2200 x > 0, \u2200 y > 0, f (x * y) = f x / y) (h\u2081 : f 500 = 3) :\n    f 600 = 5 / 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "imo_1965_p1",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "imo_1965_p1",
+                "statement": "theorem imo_1965_p1 (x : \u211d) (h\u2080 : 0 \u2264 x) (h\u2081 : x \u2264 2 * \u03c0)\n    (h\u2082 :\n      2 * Real.cos x \u2264 abs (Real.sqrt (1 + Real.sin (2 * x)) - Real.sqrt (1 - Real.sin (2 * x))))\n    (h\u2083 : abs (Real.sqrt (1 + Real.sin (2 * x)) - Real.sqrt (1 - Real.sin (2 * x))) \u2264 Real.sqrt 2) :\n    \u03c0 / 4 \u2264 x \u2227 x \u2264 7 * \u03c0 / 4",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_48",
+                    "proof": [
+                        "nlinarith"
+                    ],
+                    "score": 0.8603043734025656,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "nlinarith",
+                            "state_before": "b : \u2115\nh\u2080 : 0 < b\nh\u2081 : 3 * b ^ 2 + 2 * b + 1 = 57\n\u22a2 b = 4"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -6.415241479873657,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_48",
+                "statement": "theorem mathd_numbertheory_48 (b : \u2115) (h\u2080 : 0 < b) (h\u2081 : 3 * b ^ 2 + 2 * b + 1 = 57) : b = 4",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "numbertheory_sqmod4in01d",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "numbertheory_sqmod4in01d",
+                "statement": "theorem numbertheory_sqmod4in01d (a : \u2124) : a ^ 2 % 4 = 0 \u2228 a ^ 2 % 4 = 1",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_466",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.19321941744177215,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 (\u2211 k in Finset.range 11, k) % 9 = 1"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -17.127361297607422,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_466",
+                "statement": "theorem mathd_numbertheory_466 : (\u2211 k in Finset.range 11, k) % 9 = 1",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_48",
+                    "proof": [
+                        "rw [h\u2080, h\u2081]",
+                        "norm_num"
+                    ],
+                    "score": 0.774235912824555,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "rw [h\u2080, h\u2081]",
+                            "state_before": "q e : \u2102\nh\u2080 : q = 9 - 4 * Complex.I\nh\u2081 : e = -3 - 4 * Complex.I\n\u22a2 q - e = 12"
+                        },
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "q e : \u2102\nh\u2080 : q = 9 - 4 * Complex.I\nh\u2081 : e = -3 - 4 * Complex.I\n\u22a2 9 - 4 * Complex.I - (-3 - 4 * Complex.I) = 12"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -4.437777042388916,
+                    "iteration": 1
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_algebra_48",
+                "statement": "theorem mathd_algebra_48 (q e : \u2102) (h\u2080 : q = 9 - 4 * Complex.I) (h\u2081 : e = -3 - 4 * Complex.I) :\n    q - e = 12",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12_2000_p15",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12_2000_p15",
+                "statement": "theorem amc12_2000_p15 (f : \u2102 \u2192 \u2102) (h\u2080 : \u2200 x, f (x / 3) = x ^ 2 + x + 1)\n    (h\u2081 : Fintype (f \u207b\u00b9' {7})) : (\u2211 y in (f \u207b\u00b9' {7}).toFinset, y / 3) = -1 / 9",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_132",
+                    "proof": [
+                        "simp only [Set.mem_toFinset, Set.mem_setOf_eq]"
+                    ],
+                    "score": 0.40440990141431266,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "simp only [Set.mem_toFinset, Set.mem_setOf_eq]",
+                            "state_before": "\u22a2 2004 % 12 = 0"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -1.858138084411621,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_132",
+                "statement": "theorem mathd_numbertheory_132 : 2004 % 12 = 0",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2009_p5",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2009_p5",
+                "statement": "theorem amc12a_2009_p5 (x : \u211d) (h\u2080 : x ^ 3 - (x + 1) * (x - 1) * x = 5) : x ^ 3 = 125",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_188",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.24175980106762532,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 Nat.gcd 180 168 = 12"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -1.8017966747283936,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_188",
+                "statement": "theorem mathd_numbertheory_188 : Nat.gcd 180 168 = 12",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_224",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_224",
+                "statement": "theorem mathd_algebra_224 (S : Finset \u2115)\n    (h\u2080 : \u2200 n : \u2115, n \u2208 S \u2194 Real.sqrt n < 7 / 2 \u2227 2 < Real.sqrt n) : S.card = 8",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "induction_divisibility_3divnto3m2n",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "induction_divisibility_3divnto3m2n",
+                "statement": "theorem induction_divisibility_3divnto3m2n (n : \u2115) : 3 \u2223 n ^ 3 + 2 * n",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "induction_sum_1oktkp1",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "induction_sum_1oktkp1",
+                "statement": "theorem induction_sum_1oktkp1 (n : \u2115) :\n    (\u2211 k in Finset.range n, (1 : \u211d) / ((k + 1) * (k + 2))) = n / (n + 1)",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_32",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_32",
+                "statement": "theorem mathd_numbertheory_32 (S : Finset \u2115) (h\u2080 : \u2200 n : \u2115, n \u2208 S \u2194 n \u2223 36) : (\u2211 k in S, k) = 91",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_422",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_422",
+                "statement": "theorem mathd_algebra_422 (x : \u211d) (\u03c3 : Equiv \u211d \u211d) (h\u2080 : \u2200 x, \u03c3.1 x = 5 * x - 12)\n    (h\u2081 : \u03c3.1 (x + 1) = \u03c3.2 x) : x = 47 / 24",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12b_2002_p11",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12b_2002_p11",
+                "statement": "theorem amc12b_2002_p11 (a b : \u2115) (h\u2080 : Nat.Prime a) (h\u2081 : Nat.Prime b) (h\u2082 : Nat.Prime (a + b))\n    (h\u2083 : Nat.Prime (a - b)) : Nat.Prime (a + b + (a - b + (a + b)))",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_73",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_73",
+                "statement": "theorem mathd_algebra_73 (p q r x : \u2102) (h\u2080 : (x - p) * (x - q) = (r - p) * (r - q)) (h\u2081 : x \u2260 r) :\n    x = p + q - r",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_109",
+                    "proof": [
+                        "simp [h\u2080]",
+                        "congr"
+                    ],
+                    "score": 1.6753773612319491,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "simp [h\u2080]",
+                            "state_before": "v : \u2115 \u2192 \u2115\nh\u2080 : \u2200 (n : \u2115), v n = 2 * n - 1\n\u22a2 (\u2211 k in Finset.Icc 1 100, v k) % 7 = 4"
+                        },
+                        {
+                            "tactic": "congr",
+                            "state_before": "v : \u2115 \u2192 \u2115\nh\u2080 : \u2200 (n : \u2115), v n = 2 * n - 1\n\u22a2 (\u2211 x in Finset.Icc 1 100, (2 * x - 1)) % 7 = 4"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -38.58227825164795,
+                    "iteration": 1
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_109",
+                "statement": "theorem mathd_numbertheory_109 (v : \u2115 \u2192 \u2115) (h\u2080 : \u2200 n, v n = 2 * n - 1) :\n    (\u2211 k in Finset.Icc 1 100, v k) % 7 = 4",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3",
+                    "proof": [
+                        "ring_nf at h\u2080\u22a2",
+                        "rw [dvd_iff_exists_eq_mul_left]",
+                        "use x ^ 2 + y ^ 2 + z ^ 2 - x * y - x * z - y * z",
+                        "linarith"
+                    ],
+                    "score": 2.1704672511192964,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "ring_nf at h\u2080\u22a2",
+                            "state_before": "x y z : \u2124\nh\u2080 : (x - y) ^ 2 + (y - z) ^ 2 + (z - x) ^ 2 = x * y * z\n\u22a2 x + y + z + 6 \u2223 x ^ 3 + y ^ 3 + z ^ 3"
+                        },
+                        {
+                            "tactic": "rw [dvd_iff_exists_eq_mul_left]",
+                            "state_before": "x y z : \u2124\nh\u2080 : -(x * y * 2) - x * z * 2 + (x ^ 2 * 2 - y * z * 2) + y ^ 2 * 2 + z ^ 2 * 2 = x * y * z\n\u22a2 6 + x + y + z \u2223 x ^ 3 + y ^ 3 + z ^ 3"
+                        },
+                        {
+                            "tactic": "use x ^ 2 + y ^ 2 + z ^ 2 - x * y - x * z - y * z",
+                            "state_before": "x y z : \u2124\nh\u2080 : -(x * y * 2) - x * z * 2 + (x ^ 2 * 2 - y * z * 2) + y ^ 2 * 2 + z ^ 2 * 2 = x * y * z\n\u22a2 \u2203 c, x ^ 3 + y ^ 3 + z ^ 3 = c * (6 + x + y + z)"
+                        },
+                        {
+                            "tactic": "linarith",
+                            "state_before": "case h\nx y z : \u2124\nh\u2080 : -(x * y * 2) - x * z * 2 + (x ^ 2 * 2 - y * z * 2) + y ^ 2 * 2 + z ^ 2 * 2 = x * y * z\n\u22a2 x ^ 3 + y ^ 3 + z ^ 3 = (x ^ 2 + y ^ 2 + z ^ 2 - x * y - x * z - y * z) * (6 + x + y + z)"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -291.85500288009644,
+                    "iteration": 39
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3",
+                "statement": "theorem algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3 (x y z : \u2124)\n    (h\u2080 : (x - y) ^ 2 + (y - z) ^ 2 + (z - x) ^ 2 = x * y * z) :\n    x + y + z + 6 \u2223 x ^ 3 + y ^ 3 + z ^ 3",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "imo_1962_p4",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "imo_1962_p4",
+                "statement": "theorem imo_1962_p4 (S : Set \u211d)\n    (h\u2080 : S = { x : \u211d | Real.cos x ^ 2 + Real.cos (2 * x) ^ 2 + Real.cos (3 * x) ^ 2 = 1 }) :\n    S =\n      { x : \u211d |\n        \u2203 m : \u2124,\n          x = \u03c0 / 2 + m * \u03c0 \u2228\n            x = \u03c0 / 4 + m * \u03c0 / 2 \u2228 x = \u03c0 / 6 + m * \u03c0 / 6 \u2228 x = 5 * \u03c0 / 6 + m * \u03c0 / 6 }",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_236",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.14648520721857494,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 1999 ^ 2000 % 5 = 1"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -2.14296555519104,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_236",
+                "statement": "theorem mathd_numbertheory_236 : 1999 ^ 2000 % 5 = 1",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_24",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.2627883277244412,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 (\u2211 k in Finset.Icc 1 9, 11 ^ k) % 100 = 59"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -8.143569946289062,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_24",
+                "statement": "theorem mathd_numbertheory_24 : (\u2211 k in Finset.Icc 1 9, 11 ^ k) % 100 = 59",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "algebra_amgm_prod1toneq1_sum1tongeqn",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "algebra_amgm_prod1toneq1_sum1tongeqn",
+                "statement": "theorem algebra_amgm_prod1toneq1_sum1tongeqn (a : \u2115 \u2192 NNReal) (n : \u2115)\n    (h\u2080 : Finset.prod (Finset.range n) a = 1) : Finset.sum (Finset.range n) a \u2265 n",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_101",
+                    "proof": [
+                        "refine' \u27e8_, _\u27e9",
+                        "norm_num at h\u2080 \u22a2",
+                        "nlinarith",
+                        "norm_num at h\u2080 \u22a2",
+                        "nlinarith"
+                    ],
+                    "score": 2.7334314833751105,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "refine' \u27e8_, _\u27e9",
+                            "state_before": "x : \u211d\nh\u2080 : x ^ 2 - 5 * x - 4 \u2264 10\n\u22a2 x \u2265 -2 \u2227 x \u2264 7"
+                        },
+                        {
+                            "tactic": "norm_num at h\u2080 \u22a2",
+                            "state_before": "case refine'_1\nx : \u211d\nh\u2080 : x ^ 2 - 5 * x - 4 \u2264 10\n\u22a2 x \u2265 -2\n\ncase refine'_2\nx : \u211d\nh\u2080 : x ^ 2 - 5 * x - 4 \u2264 10\n\u22a2 x \u2264 7"
+                        },
+                        {
+                            "tactic": "nlinarith",
+                            "state_before": "case refine'_1\nx : \u211d\nh\u2080 : x ^ 2 \u2264 14 + 5 * x\n\u22a2 -2 \u2264 x\n\ncase refine'_2\nx : \u211d\nh\u2080 : x ^ 2 - 5 * x - 4 \u2264 10\n\u22a2 x \u2264 7"
+                        },
+                        {
+                            "tactic": "norm_num at h\u2080 \u22a2",
+                            "state_before": "case refine'_2\nx : \u211d\nh\u2080 : x ^ 2 - 5 * x - 4 \u2264 10\n\u22a2 x \u2264 7"
+                        },
+                        {
+                            "tactic": "nlinarith",
+                            "state_before": "case refine'_2\nx : \u211d\nh\u2080 : x ^ 2 \u2264 14 + 5 * x\n\u22a2 x \u2264 7"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -78.76426911354065,
+                    "iteration": 34
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_algebra_101",
+                "statement": "theorem mathd_algebra_101 (x : \u211d) (h\u2080 : x ^ 2 - 5 * x - 4 \u2264 10) : x \u2265 -2 \u2227 x \u2264 7",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_257",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_257",
+                "statement": "theorem mathd_numbertheory_257 (x : \u2115) (h\u2080 : 1 \u2264 x \u2227 x \u2264 100)\n    (h\u2081 : 77 \u2223 (\u2211 k in Finset.range 101, k) - x) : x = 45",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12_2000_p5",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12_2000_p5",
+                "statement": "theorem amc12_2000_p5 (x p : \u211d) (h\u2080 : x < 2) (h\u2081 : abs (x - 2) = p) : x - p = 2 - 2 * p",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_547",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_547",
+                "statement": "theorem mathd_algebra_547 (x y : \u211d) (h\u2080 : x = 5) (h\u2081 : y = 2) : Real.sqrt (x ^ 3 - 2 ^ y) = 11",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_200",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.12078485732869619,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 139 % 11 = 7"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -1.4422621726989746,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_200",
+                "statement": "theorem mathd_numbertheory_200 : 139 % 11 = 7",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_510",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_510",
+                "statement": "theorem mathd_algebra_510 (x y : \u211d) (h\u2080 : x + y = 13) (h\u2081 : x * y = 24) :\n    Real.sqrt (x ^ 2 + y ^ 2) = 11",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_140",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_140",
+                "statement": "theorem mathd_algebra_140 (a b c : \u211d) (h\u2080 : 0 < a \u2227 0 < b \u2227 0 < c)\n    (h\u2081 : \u2200 x, 24 * x ^ 2 - 19 * x - 35 = (a * x - 5) * (2 * (b * x) + c)) : a * b - 3 * c = -9",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_455",
+                    "proof": [
+                        "linarith"
+                    ],
+                    "score": 0.2037220543737021,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "linarith",
+                            "state_before": "x : \u211d\nh\u2080 : 2 * (2 * (2 * (2 * x))) = 48\n\u22a2 x = 3"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -1.7741518020629883,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_algebra_455",
+                "statement": "theorem mathd_algebra_455 (x : \u211d) (h\u2080 : 2 * (2 * (2 * (2 * x))) = 48) : x = 3",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_45",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.14808705300765723,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 Nat.gcd 6432 132 + 11 = 23"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -2.544243812561035,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_45",
+                "statement": "theorem mathd_numbertheory_45 : Nat.gcd 6432 132 + 11 = 23",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "aime_1994_p4",
+                    "success": false,
+                    "failure_reason": "DojoCrashError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "aime_1994_p4",
+                "statement": "theorem aime_1994_p4 (n : \u2115) (h\u2080 : 0 < n)\n    (h\u2080 : (\u2211 k in Finset.Icc 1 n, Int.floor (Real.logb 2 k)) = 1994) : n = 312",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_739",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.2280412839118829,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 9! % 10 = 0"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -2.716151237487793,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_739",
+                "statement": "theorem mathd_numbertheory_739 : 9! % 10 = 0",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_245",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_245",
+                "statement": "theorem mathd_algebra_245 (x : \u211d) (h\u2080 : x \u2260 0) :\n    (4 / x)\u207b\u00b9 * (3 * x ^ 3 / x) ^ 2 * (1 / (2 * x))\u207b\u00b9 ^ 3 = 18 * x ^ 8",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "algebra_apb4leq8ta4pb4",
+                    "success": false,
+                    "failure_reason": "DojoCrashError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "algebra_apb4leq8ta4pb4",
+                "statement": "theorem algebra_apb4leq8ta4pb4 (a b : \u211d) (h\u2080 : 0 < a \u2227 0 < b) : (a + b) ^ 4 \u2264 8 * (a ^ 4 + b ^ 4)",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_28",
+                    "success": false,
+                    "failure_reason": "DojoCrashError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_28",
+                "statement": "theorem mathd_algebra_28 (c : \u211d) (f : \u211d \u2192 \u211d) (h\u2080 : \u2200 x, f x = 2 * x ^ 2 + 5 * x + c)\n    (h\u2081 : \u2203 x, f x \u2264 0) : c \u2264 25 / 8",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_543",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_543",
+                "statement": "theorem mathd_numbertheory_543 : (\u2211 k in Nat.divisors (30 ^ 4), 1) - 2 = 123",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_480",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_480",
+                "statement": "theorem mathd_algebra_480 (f : \u211d \u2192 \u211d) (h\u2080 : \u2200 x < 0, f x = -x ^ 2 - 1)\n    (h\u2081 : \u2200 x, 0 \u2264 x \u2227 x < 4 \u2192 f x = 2) (h\u2082 : \u2200 x \u2265 4, f x = Real.sqrt x) : f \u03c0 = 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_69",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_69",
+                "statement": "theorem mathd_algebra_69 (rows seats : \u2115) (h\u2080 : rows * seats = 450)\n    (h\u2081 : (rows + 5) * (seats - 3) = 450) : rows = 25",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_433",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_433",
+                "statement": "theorem mathd_algebra_433 (f : \u211d \u2192 \u211d) (h\u2080 : \u2200 x, f x = 3 * Real.sqrt (2 * x - 7) - 8) : f 8 = 1",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_126",
+                    "proof": [
+                        "exact \u27e8by linarith [h\u2080], by linarith [h\u2081]\u27e9"
+                    ],
+                    "score": 0.26149991680379325,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "exact \u27e8by linarith [h\u2080], by linarith [h\u2081]\u27e9",
+                            "state_before": "x y : \u211d\nh\u2080 : 2 * 3 = x - 9\nh\u2081 : 2 * -5 = y + 1\n\u22a2 x = 15 \u2227 y = -11"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -2.5523722171783447,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_algebra_126",
+                "statement": "theorem mathd_algebra_126 (x y : \u211d) (h\u2080 : 2 * 3 = x - 9) (h\u2081 : 2 * -5 = y + 1) : x = 15 \u2227 y = -11",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "aimeII_2020_p6",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "aimeII_2020_p6",
+                "statement": "theorem aimeII_2020_p6 (t : \u2115 \u2192 \u211a) (h\u2080 : t 1 = 20) (h\u2081 : t 2 = 21)\n    (h\u2082 : \u2200 n \u2265 3, t n = (5 * t (n - 1) + 1) / (25 * t (n - 2))) :\n    \u2191(t 2020).den + (t 2020).num = 626",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2008_p2",
+                    "proof": [
+                        "linarith"
+                    ],
+                    "score": 0.3805013612107359,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "linarith",
+                            "state_before": "x : \u211d\nh\u2080 : x * (1 / 2 + 2 / 3) = 1\n\u22a2 x = 6 / 7"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -2.1779298782348633,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "amc12a_2008_p2",
+                "statement": "theorem amc12a_2008_p2 (x : \u211d) (h\u2080 : x * (1 / 2 + 2 / 3) = 1) : x = 6 / 7",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_35",
+                    "proof": [
+                        "simp [h\u2080, h\u2081]",
+                        "norm_num"
+                    ],
+                    "score": 0.8218406411436842,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "simp [h\u2080, h\u2081]",
+                            "state_before": "p q : \u211d \u2192 \u211d\nh\u2080 : \u2200 (x : \u211d), p x = 2 - x ^ 2\nh\u2081 : \u2200 (x : \u211d), x \u2260 0 \u2192 q x = 6 / x\n\u22a2 p (q 2) = -7"
+                        },
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "p q : \u211d \u2192 \u211d\nh\u2080 : \u2200 (x : \u211d), p x = 2 - x ^ 2\nh\u2081 : \u2200 (x : \u211d), x \u2260 0 \u2192 q x = 6 / x\n\u22a2 2 - 6 ^ 2 / 2 ^ 2 = -7"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -5.900890111923218,
+                    "iteration": 1
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_algebra_35",
+                "statement": "theorem mathd_algebra_35 (p q : \u211d \u2192 \u211d) (h\u2080 : \u2200 x, p x = 2 - x ^ 2)\n    (h\u2081 : \u2200 (x) (_ : x \u2260 0), q x = 6 / x) : p (q 2) = -7",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x",
+                "statement": "theorem algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x :\n    \u2200 x > 0, 2 - Real.sqrt 2 \u2265 2 - x - 1 / (2 * x)",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_335",
+                    "proof": [
+                        "rw [mul_mod, h\u2080]",
+                        "norm_num"
+                    ],
+                    "score": 0.7047584387093291,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "rw [mul_mod, h\u2080]",
+                            "state_before": "n : \u2115\nh\u2080 : n % 7 = 5\n\u22a2 5 * n % 7 = 4"
+                        },
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "n : \u2115\nh\u2080 : n % 7 = 5\n\u22a2 5 % 7 * 5 % 7 = 4"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -19.29012894630432,
+                    "iteration": 1
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_335",
+                "statement": "theorem mathd_numbertheory_335 (n : \u2115) (h\u2080 : n % 7 = 5) : 5 * n % 7 = 4",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_35",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_35",
+                "statement": "theorem mathd_numbertheory_35 (S : Finset \u2115) (h\u2080 : \u2200 n : \u2115, n \u2223 Nat.sqrt 196) :\n    (\u2211 k in S, k) = 24",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2021_p7",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2021_p7",
+                "statement": "theorem amc12a_2021_p7 (x y : \u211d) : 1 \u2264 (x * y - 1) ^ 2 + (x + y) ^ 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_327",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_327",
+                "statement": "theorem mathd_algebra_327 (a : \u211d) (h\u2080 : 1 / 5 * abs (9 + 2 * a) < 1) : -7 < a \u2227 a < -2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "aime_1984_p15",
+                    "proof": [
+                        "field_simp at h\u2080 h\u2081 h\u2082 h\u2083 \u22a2",
+                        "linarith"
+                    ],
+                    "score": 1.1092956443849662,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "field_simp at h\u2080 h\u2081 h\u2082 h\u2083 \u22a2",
+                            "state_before": "x y z w : \u211d\nh\u2080 : x ^ 2 / (2 ^ 2 - 1) + y ^ 2 / (2 ^ 2 - 3 ^ 2) + z ^ 2 / (2 ^ 2 - 5 ^ 2) + w ^ 2 / (2 ^ 2 - 7 ^ 2) = 1\nh\u2081 : x ^ 2 / (4 ^ 2 - 1) + y ^ 2 / (4 ^ 2 - 3 ^ 2) + z ^ 2 / (4 ^ 2 - 5 ^ 2) + w ^ 2 / (4 ^ 2 - 7 ^ 2) = 1\nh\u2082 : x ^ 2 / (6 ^ 2 - 1) + y ^ 2 / (6 ^ 2 - 3 ^ 2) + z ^ 2 / (6 ^ 2 - 5 ^ 2) + w ^ 2 / (6 ^ 2 - 7 ^ 2) = 1\nh\u2083 : x ^ 2 / (8 ^ 2 - 1) + y ^ 2 / (8 ^ 2 - 3 ^ 2) + z ^ 2 / (8 ^ 2 - 5 ^ 2) + w ^ 2 / (8 ^ 2 - 7 ^ 2) = 1\n\u22a2 x ^ 2 + y ^ 2 + z ^ 2 + w ^ 2 = 36"
+                        },
+                        {
+                            "tactic": "linarith",
+                            "state_before": "x y z w : \u211d\nh\u2080 :\n  ((x ^ 2 * (2 ^ 2 - 3 ^ 2) + y ^ 2 * (2 ^ 2 - 1)) * (2 ^ 2 - 5 ^ 2) + z ^ 2 * ((2 ^ 2 - 1) * (2 ^ 2 - 3 ^ 2))) *\n        (2 ^ 2 - 7 ^ 2) +\n      w ^ 2 * ((2 ^ 2 - 1) * (2 ^ 2 - 3 ^ 2) * (2 ^ 2 - 5 ^ 2)) =\n    (2 ^ 2 - 1) * (2 ^ 2 - 3 ^ 2) * (2 ^ 2 - 5 ^ 2) * (2 ^ 2 - 7 ^ 2)\nh\u2081 :\n  ((x ^ 2 * (4 ^ 2 - 3 ^ 2) + y ^ 2 * (4 ^ 2 - 1)) * (4 ^ 2 - 5 ^ 2) + z ^ 2 * ((4 ^ 2 - 1) * (4 ^ 2 - 3 ^ 2))) *\n        (4 ^ 2 - 7 ^ 2) +\n      w ^ 2 * ((4 ^ 2 - 1) * (4 ^ 2 - 3 ^ 2) * (4 ^ 2 - 5 ^ 2)) =\n    (4 ^ 2 - 1) * (4 ^ 2 - 3 ^ 2) * (4 ^ 2 - 5 ^ 2) * (4 ^ 2 - 7 ^ 2)\nh\u2082 :\n  ((x ^ 2 * (6 ^ 2 - 3 ^ 2) + y ^ 2 * (6 ^ 2 - 1)) * (6 ^ 2 - 5 ^ 2) + z ^ 2 * ((6 ^ 2 - 1) * (6 ^ 2 - 3 ^ 2))) *\n        (6 ^ 2 - 7 ^ 2) +\n      w ^ 2 * ((6 ^ 2 - 1) * (6 ^ 2 - 3 ^ 2) * (6 ^ 2 - 5 ^ 2)) =\n    (6 ^ 2 - 1) * (6 ^ 2 - 3 ^ 2) * (6 ^ 2 - 5 ^ 2) * (6 ^ 2 - 7 ^ 2)\nh\u2083 :\n  ((x ^ 2 * (8 ^ 2 - 3 ^ 2) + y ^ 2 * (8 ^ 2 - 1)) * (8 ^ 2 - 5 ^ 2) + z ^ 2 * ((8 ^ 2 - 1) * (8 ^ 2 - 3 ^ 2))) *\n        (8 ^ 2 - 7 ^ 2) +\n      w ^ 2 * ((8 ^ 2 - 1) * (8 ^ 2 - 3 ^ 2) * (8 ^ 2 - 5 ^ 2)) =\n    (8 ^ 2 - 1) * (8 ^ 2 - 3 ^ 2) * (8 ^ 2 - 5 ^ 2) * (8 ^ 2 - 7 ^ 2)\n\u22a2 x ^ 2 + y ^ 2 + z ^ 2 + w ^ 2 = 36"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -68.83414840698242,
+                    "iteration": 1
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "aime_1984_p15",
+                "statement": "theorem aime_1984_p15 (x y z w : \u211d)\n    (h\u2080 :\n      x ^ 2 / (2 ^ 2 - 1) + y ^ 2 / (2 ^ 2 - 3 ^ 2) + z ^ 2 / (2 ^ 2 - 5 ^ 2) +\n          w ^ 2 / (2 ^ 2 - 7 ^ 2) =\n        1)\n    (h\u2081 :\n      x ^ 2 / (4 ^ 2 - 1) + y ^ 2 / (4 ^ 2 - 3 ^ 2) + z ^ 2 / (4 ^ 2 - 5 ^ 2) +\n          w ^ 2 / (4 ^ 2 - 7 ^ 2) =\n        1)\n    (h\u2082 :\n      x ^ 2 / (6 ^ 2 - 1) + y ^ 2 / (6 ^ 2 - 3 ^ 2) + z ^ 2 / (6 ^ 2 - 5 ^ 2) +\n          w ^ 2 / (6 ^ 2 - 7 ^ 2) =\n        1)\n    (h\u2083 :\n      x ^ 2 / (8 ^ 2 - 1) + y ^ 2 / (8 ^ 2 - 3 ^ 2) + z ^ 2 / (8 ^ 2 - 5 ^ 2) +\n          w ^ 2 / (8 ^ 2 - 7 ^ 2) =\n        1) :\n    x ^ 2 + y ^ 2 + z ^ 2 + w ^ 2 = 36",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4",
+                "statement": "theorem algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4 (x y : \u211d) (h\u2080 : 0 < x \u2227 0 < y) (h\u2081 : y \u2264 x)\n    (h\u2082 : Real.sqrt (x * y) * (x - y) = x + y) : x + y \u2265 4",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2002_p21",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2002_p21",
+                "statement": "theorem amc12a_2002_p21 (u : \u2115 \u2192 \u2115) (h\u2080 : u 0 = 4) (h\u2081 : u 1 = 7)\n    (h\u2082 : \u2200 n \u2265 2, u (n + 2) = (u n + u (n + 1)) % 10) :\n    \u2200 n, (\u2211 k in Finset.range n, u k) > 10000 \u2192 1999 \u2264 n",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_192",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_192",
+                "statement": "theorem mathd_algebra_192 (q e d : \u2102) (h\u2080 : q = 11 - 5 * Complex.I) (h\u2081 : e = 11 + 5 * Complex.I)\n    (h\u2082 : d = 2 * Complex.I) : q * e * d = 292 * Complex.I",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12b_2002_p6",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12b_2002_p6",
+                "statement": "theorem amc12b_2002_p6 (a b : \u211d) (h\u2080 : a \u2260 0 \u2227 b \u2260 0)\n    (h\u2081 : \u2200 x, x ^ 2 + a * x + b = (x - a) * (x - b)) : a = 1 \u2227 b = -2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_102",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.14466161674166264,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 2 ^ 8 % 5 = 1"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -2.446681261062622,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_102",
+                "statement": "theorem mathd_numbertheory_102 : 2 ^ 8 % 5 = 1",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2010_p22",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2010_p22",
+                "statement": "theorem amc12a_2010_p22 (x : \u211d) : 49 \u2264 \u2211 k:\u2124 in Finset.Icc 1 119, abs (\u2191k * x - 1)",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_81",
+                    "proof": [
+                        "norm_num"
+                    ],
+                    "score": 0.1111101640946875,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "norm_num",
+                            "state_before": "\u22a2 71 % 3 = 2"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -1.3589706420898438,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_81",
+                "statement": "theorem mathd_numbertheory_81 : 71 % 3 = 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_155",
+                    "success": false,
+                    "failure_reason": "DojoCrashError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_155",
+                "statement": "theorem mathd_numbertheory_155 :\n    Finset.card (Finset.filter (fun x => x % 19 = 7) (Finset.Icc 100 999)) = 48",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "imo_1978_p5",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "imo_1978_p5",
+                "statement": "theorem imo_1978_p5 (n : \u2115) (a : \u2115 \u2192 \u2115) (h\u2080 : Function.Injective a) (h\u2081 : a 0 = 0) (h\u2082 : 0 < n) :\n    (\u2211 k in Finset.Icc 1 n, (1 : \u211d) / k) \u2264 \u2211 k in Finset.Icc 1 n, a k / k ^ 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2017_p7",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2017_p7",
+                "statement": "theorem amc12a_2017_p7 (f : \u2115 \u2192 \u211d) (h\u2080 : f 1 = 2) (h\u2081 : \u2200 n, 1 < n \u2227 Even n \u2192 f n = f (n - 1) + 1)\n    (h\u2082 : \u2200 n, 1 < n \u2227 Odd n \u2192 f n = f (n - 2) + 2) : f 2017 = 2018",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_42",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_numbertheory_42",
+                "statement": "theorem mathd_numbertheory_42 (S : Set \u2115) (u v : \u2115) (h\u2080 : \u2200 a : \u2115, a \u2208 S \u2194 0 < a \u2227 27 * a % 40 = 17)\n    (h\u2081 : IsLeast S u) (h\u2082 : IsLeast (S \\ {u}) v) : u + v = 62",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_110",
+                    "proof": [
+                        "simp only [h\u2080, h\u2081, mul_sub, mul_add]",
+                        "ring",
+                        "norm_num [h\u2080, h\u2081]"
+                    ],
+                    "score": 1.4213143633293839,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "simp only [h\u2080, h\u2081, mul_sub, mul_add]",
+                            "state_before": "q e : \u2102\nh\u2080 : q = 2 - 2 * Complex.I\nh\u2081 : e = 5 + 5 * Complex.I\n\u22a2 q * e = 20"
+                        },
+                        {
+                            "tactic": "ring",
+                            "state_before": "q e : \u2102\nh\u2080 : q = 2 - 2 * Complex.I\nh\u2081 : e = 5 + 5 * Complex.I\n\u22a2 (2 - 2 * Complex.I) * 5 + (2 - 2 * Complex.I) * (5 * Complex.I) = 20"
+                        },
+                        {
+                            "tactic": "norm_num [h\u2080, h\u2081]",
+                            "state_before": "q e : \u2102\nh\u2080 : q = 2 - 2 * Complex.I\nh\u2081 : e = 5 + 5 * Complex.I\n\u22a2 10 - Complex.I ^ 2 * 10 = 20"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -41.73531460762024,
+                    "iteration": 15
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_algebra_110",
+                "statement": "theorem mathd_algebra_110 (q e : \u2102) (h\u2080 : q = 2 - 2 * Complex.I) (h\u2081 : e = 5 + 5 * Complex.I) :\n    q * e = 20",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12b_2021_p21",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12b_2021_p21",
+                "statement": "theorem amc12b_2021_p21 (S : Finset \u211d)\n    (h\u2080 : \u2200 x : \u211d, x \u2208 S \u2194 0 < x \u2227 x ^ (2 : \u211d) ^ Real.sqrt 2 = Real.sqrt 2 ^ (2 : \u211d) ^ x) :\n    (\u21912 \u2264 \u2211 k in S, k) \u2227 (\u2211 k in S, k) < 6",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_405",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_405",
+                "statement": "theorem mathd_algebra_405 (S : Finset \u2115) (h\u2080 : \u2200 x, x \u2208 S \u2194 0 < x \u2227 x ^ 2 + 4 * x + 4 < 20) :\n    S.card = 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "numbertheory_sumkmulnckeqnmul2pownm1",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "numbertheory_sumkmulnckeqnmul2pownm1",
+                "statement": "theorem numbertheory_sumkmulnckeqnmul2pownm1 (n : \u2115) (h\u2080 : 0 < n) :\n    (\u2211 k in Finset.Icc 1 n, k * Nat.choose n k) = n * 2 ^ (n - 1)",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_393",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_393",
+                "statement": "theorem mathd_algebra_393 (\u03c3 : Equiv \u211d \u211d) (h\u2080 : \u2200 x, \u03c3.1 x = 4 * x ^ 3 + 1) : \u03c3.2 33 = 2",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12b_2004_p3",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12b_2004_p3",
+                "statement": "theorem amc12b_2004_p3 (x y : \u2115) (h\u2080 : 2 ^ x * 3 ^ y = 1296) : x + y = 8",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        }
+    ],
+    "args": {
+        "model_name": "open-web-math/llemma_7b",
+        "dataset_name": "minif2f-valid",
+        "shard": 0,
+        "resume_from": null,
+        "dataset_path": "data/minif2f.jsonl",
+        "output_dir": "output/llemma7b_minif2f_valid",
+        "early_stop": true,
+        "tp_degree": 1,
+        "num_shards": 1,
+        "max_iters": 100,
+        "timeout": 600,
+        "num_examples": 100,
+        "num_samples": 32,
+        "clear_process_hours": 3,
+        "temperatures": [
+            0.0
+        ]
+    }
+}
