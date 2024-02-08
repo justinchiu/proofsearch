@@ -6,15 +6,15 @@ NUM_SAMPLES=32
 TEMPERATURES="0.0"
 TIMEOUT=600
 NUM_SHARDS=1
-#DATASET="minif2f-valid"
-DATASET="minif2f-test"
+DATASET="minif2f-valid"
+#DATASET="minif2f-test"
 DATA="data/minif2f.jsonl"
 
 MODEL="open-web-math/llemma_7b"
 NAME="llemma7b"
 
-#OUTPUT_DIR="output/${NAME}_minif2f_valid"
-OUTPUT_DIR="output/${NAME}_minif2f_test"
+OUTPUT_DIR="output/${NAME}_minif2f_valid"
+#OUTPUT_DIR="output/${NAME}_minif2f_test"
 
 #for SHARD in 0 1 2 3
 for SHARD in 0
