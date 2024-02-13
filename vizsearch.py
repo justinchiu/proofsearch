@@ -145,6 +145,8 @@ def best_first_search(
                 )
                 step_cands = [s.strip() for s in step_cands]
 
+                print(step_cands)
+
                 for step, score in zip(step_cands, step_scores):
                     result = dojo.run_tac(state, step)
                     step_trace = {
@@ -192,29 +194,30 @@ def best_first_search(
     return attempt_results
 
 def _load_model(tp_degree):
-    """
-    # yikes, it looks like awq is really bad?
-    model_name = "TheBloke/llemma_7b-AWQ"
-    model = vllm.LLM(
-        model=model_name,
-        quantization = "awq",
-        tensor_parallel_size=tp_degree,
-        #dtype='bfloat16',
-        #dtype='float16',
-        dtype = "auto",
-        max_num_batched_tokens=4096
-    )
-    """
-    model_name = "EleutherAI/llemma_7b"
-    model = vllm.LLM(
-        model=model_name,
-        #quantization = "awq",
-        tensor_parallel_size=tp_degree,
-        #dtype='bfloat16',
-        #dtype='float16',
-        dtype = "auto",
-        max_num_batched_tokens=4096
-    )
+    QUANTIZED = False
+    if QUANTIZED:
+        # yikes, it looks like awq is really bad?
+        model_name = "TheBloke/llemma_7b-AWQ"
+        model = vllm.LLM(
+            model=model_name,
+            quantization = "awq",
+            tensor_parallel_size=tp_degree,
+            #dtype='bfloat16',
+            #dtype='float16',
+            dtype = "auto",
+            max_num_batched_tokens=4096
+        )
+    else:
+        model_name = "EleutherAI/llemma_7b"
+        model = vllm.LLM(
+            model=model_name,
+            #quantization = "awq",
+            tensor_parallel_size=tp_degree,
+            #dtype='bfloat16',
+            #dtype='float16',
+            dtype = "auto",
+            max_num_batched_tokens=4096
+        )
     tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
     return model, tokenizer
 
