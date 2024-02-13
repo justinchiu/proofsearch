@@ -151,7 +151,6 @@ def best_first_search(
                         "tactic": step,
                         "state_before": _tactic_state(state)
                     }
-                    import pdb; pdb.set_trace()
                     if isinstance(result, ProofFinished):
                         attempt_results.append({
                             'theorem': theorem.full_name,
@@ -193,10 +192,23 @@ def best_first_search(
     return attempt_results
 
 def _load_model(tp_degree):
+    """
+    # yikes, it looks like awq is really bad?
     model_name = "TheBloke/llemma_7b-AWQ"
     model = vllm.LLM(
         model=model_name,
         quantization = "awq",
+        tensor_parallel_size=tp_degree,
+        #dtype='bfloat16',
+        #dtype='float16',
+        dtype = "auto",
+        max_num_batched_tokens=4096
+    )
+    """
+    model_name = "EleutherAI/llemma_7b"
+    model = vllm.LLM(
+        model=model_name,
+        #quantization = "awq",
         tensor_parallel_size=tp_degree,
         #dtype='bfloat16',
         #dtype='float16',
@@ -266,11 +278,12 @@ if __name__ == '__main__':
     model, tokenizer = _load_model(args.tp_degree)
     #model, tokenizer = None, None
 
-    import pdb; pdb.set_trace()
     start = time.time()
     for example in tqdm(data, total=len(data)):
         file_path = example['file_path']
         theorem_name = example['full_name']
+        if theorem_name not in ["mathd_numbertheory_466"]:
+            continue
         theorem = Theorem(repo, file_path, theorem_name)
         attempt_results = best_first_search(
             theorem, model, tokenizer,

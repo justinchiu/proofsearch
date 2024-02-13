@@ -175,6 +175,7 @@ def best_first_search(
                                 queue, (new_score, steps+[step], result, trace+[step_trace])
                             )
     except (DojoInitError, DojoHardTimeoutError, DojoCrashError, subprocess.CalledProcessError) as e:
+        print(f"Ran into error {e}")
         if len(attempt_results) == 0:
             attempt_results.append({
                 'theorem': theorem.full_name,
@@ -208,9 +209,9 @@ def _save(model_name, results, args_dict, output_dir, shard):
 
 def _load_model(model_name, tp_degree):
     model = vllm.LLM(
-        #model=model_name,
-        model="TheBloke/llemma_7b-AWQ",
-        quantization = "awq",
+        model=model_name,
+        #model="TheBloke/llemma_7b-AWQ",
+        #quantization = "awq",
         tensor_parallel_size=tp_degree,
         #dtype='bfloat16',
         #dtype='float16',
@@ -267,8 +268,8 @@ if __name__ == '__main__':
     parser.add_argument(
         '--model-name', 
         choices=[
-            'open-web-math/llemma_7b',
-            'open-web-math/llemma_34b',
+            'EleutherAI/llemma_7b',
+            'EleutherAI/llemma_34b',
             'codellama/CodeLlama-7b-hf',
             'codellama/CodeLlama-34b-hf'
         ],
