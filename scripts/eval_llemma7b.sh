@@ -6,8 +6,8 @@ NUM_SAMPLES=32
 TEMPERATURES="0.0"
 TIMEOUT=600
 NUM_SHARDS=1
-#DATASET="minif2f-valid"
-DATASET="minif2f-test"
+DATASET="minif2f-valid"
+#DATASET="minif2f-test"
 DATA="data/minif2f.jsonl"
 
 MODEL="EleutherAI/llemma_7b"
