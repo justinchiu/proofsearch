@@ -15,6 +15,7 @@ os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
 
 def generate_vllm(prompt, model, tokenizer, temperatures, num_samples, stop, max_tokens=256):
+    import pdb; pdb.set_trace()
     texts, scores = [], []
     for temperature in temperatures:
         params = vllm.SamplingParams(
@@ -278,8 +279,8 @@ if __name__ == '__main__':
 
     results = []
 
-    model, tokenizer = _load_model(args.tp_degree)
-    #model, tokenizer = None, None
+    #model, tokenizer = _load_model(args.tp_degree)
+    model, tokenizer = None, None
 
     start = time.time()
     for example in tqdm(data, total=len(data)):
