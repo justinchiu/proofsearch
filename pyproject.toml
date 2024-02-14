@@ -11,7 +11,8 @@ dependencies = [
     "transformers",
     "torch",
     "vllm",
-    "autoawq", # quantization with vllm
+    "autoawq", # quantization with vllm. likely will remove this because quantization sucks.
+    "diskcache",
 ]
 requires-python = ">=3.9,<3.11"
 name = "proofsearch"
