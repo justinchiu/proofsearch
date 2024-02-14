@@ -1,0 +1,41 @@
+{
+    "results": [
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2019_p21",
+                    "success": false,
+                    "failure_reason": "CalledProcessError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2019_p21",
+                "statement": "theorem amc12a_2019_p21 (z : \u2102) (h\u2080 : z = (1 + Complex.I) / Real.sqrt 2) :\n    ((\u2211 k : \u2124 in Finset.Icc 1 12, z ^ k ^ 2) * (\u2211 k : \u2124 in Finset.Icc 1 12, 1 / z ^ k ^ 2)) = 36",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Validation.lean",
+                "split": "valid"
+            }
+        }
+    ],
+    "args": {
+        "model_name": "EleutherAI/llemma_7b",
+        "dataset_name": "minif2f-valid",
+        "shard": 0,
+        "resume_from": null,
+        "dataset_path": "data/minif2f.jsonl",
+        "output_dir": "output/llemma7b_minif2f_valid",
+        "early_stop": true,
+        "tp_degree": 1,
+        "num_shards": 1,
+        "max_iters": 100,
+        "timeout": 600,
+        "num_examples": 100,
+        "num_samples": 32,
+        "clear_process_hours": 3,
+        "temperatures": [
+            0.0
+        ]
+    }
+}

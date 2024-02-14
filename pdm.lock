@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:252609fa7b8640b3c0fc0f4a6bceedc4229f43b0db6c853237278cfed7ac97b3"
+content_hash = "sha256:fc1a01f3df0ad386595308b23572d73a4ca427c30feb78a33ca72157e0acc328"
 
 [[package]]
 name = "absl-py"
@@ -653,6 +653,17 @@ groups = ["default"]
 files = [
     {file = "dill-0.3.7-py3-none-any.whl", hash = "sha256:76b122c08ef4ce2eedcd4d1abd8e641114bfc6c2867f49f3c41facf65bf19f5e"},
     {file = "dill-0.3.7.tar.gz", hash = "sha256:cc1c8b182eb3013e24bd475ff2e9295af86c1a38eb1aff128dac8962a9ce3c03"},
+]
+
+[[package]]
+name = "diskcache"
+version = "5.6.3"
+requires_python = ">=3"
+summary = "Disk Cache -- Disk and file backed persistent cache."
+groups = ["default"]
+files = [
+    {file = "diskcache-5.6.3-py3-none-any.whl", hash = "sha256:5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19"},
+    {file = "diskcache-5.6.3.tar.gz", hash = "sha256:2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc"},
 ]
 
 [[package]]

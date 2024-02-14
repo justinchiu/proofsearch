@@ -10,9 +10,33 @@ from datetime import datetime
 from lean_dojo import *
 from pathlib import Path
 from tqdm import tqdm, trange
+import asyncio
+
+from proofsearch.prompt import client
+
 
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
+
+def generate(prompt, model, tokenizer, temperatures, num_samples, stop, max_tokens=256):
+    output = client.chat.completions.create(
+        model="gpt-4-1106-preview",
+        temperature=temperatures[0],
+        max_tokens=max_tokens,
+        messages = [
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ],
+        stop = stop,
+        logprobs = True,
+        n = num_samples,
+    )
+    contents = [choice.message.content for choice in output.choices]
+    # normalize by logprobs by length?
+    logprobs = [sum(x.logprob for x in choice.logprobs.content) for choice in output.choices]
+    return _unique_sorted(contents, logprobs)
 
 def generate_vllm(prompt, model, tokenizer, temperatures, num_samples, stop, max_tokens=256):
     texts, scores = [], []
@@ -134,7 +158,8 @@ def best_first_search(
                 ts = _tactic_state(state)
                 visited.add(ts)
 
-                step_cands, step_scores = generate_vllm(
+                #step_cands, step_scores = generate_vllm(
+                step_cands, step_scores = generate(
                     prompt_fn(ts),
                     model,
                     tokenizer,
@@ -278,8 +303,8 @@ if __name__ == '__main__':
 
     results = []
 
-    model, tokenizer = _load_model(args.tp_degree)
-    #model, tokenizer = None, None
+    #model, tokenizer = _load_model(args.tp_degree)
+    model, tokenizer = None, None
 
     start = time.time()
     for example in tqdm(data, total=len(data)):
