@@ -143,6 +143,7 @@ def best_first_search(
 ) -> dict:
     """Best first search."""
     attempt_results = []
+    import pdb; pdb.set_trace()
     try:
         with Dojo(theorem, hard_timeout=timeout) as (dojo, init_state):
             start = time.time()
