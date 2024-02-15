@@ -4663,6 +4663,39 @@
                 "file_path": "MiniF2F/Test.lean",
                 "split": "test"
             }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_66",
+                    "proof": [
+                        "solve_by_elim [add_le_add_iff_left]"
+                    ],
+                    "score": 0.4560542111335919,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "solve_by_elim [add_le_add_iff_left]",
+                            "state_before": "\u22a2 194 % 11 = 7"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -33.990344524383545,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_66",
+                "statement": "theorem mathd_numbertheory_66 : 194 % 11 = 7",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
         }
     ],
     "args": {
