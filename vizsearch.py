@@ -39,7 +39,6 @@ def generate(prompt, model, tokenizer, temperatures, num_samples, stop, max_toke
     return _unique_sorted(contents, logprobs)
 
 def generate_vllm(prompt, model, tokenizer, temperatures, num_samples, stop, max_tokens=256):
-    import pdb; pdb.set_trace()
     texts, scores = [], []
     for temperature in temperatures:
         params = vllm.SamplingParams(

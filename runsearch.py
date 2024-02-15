@@ -272,6 +272,7 @@ if __name__ == '__main__':
             'EleutherAI/llemma_34b',
             'codellama/CodeLlama-7b-hf',
             'codellama/CodeLlama-34b-hf'
+            "gpt4-1106-preview",
         ],
         required=True
     )
