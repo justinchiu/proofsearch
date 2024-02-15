@@ -11,6 +11,8 @@ from lean_dojo import *
 from pathlib import Path
 from tqdm import tqdm, trange
 
+from proofsearch.prompt import client
+
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
 

@@ -9,6 +9,7 @@ NUM_SHARDS=1
 
 MODEL="EleutherAI/llemma_7b"
 NAME="llemma7b"
+TEMPERATURES="1.0"
 
 MODEL="gpt4-1106-preview"
 NAME="gpt4"

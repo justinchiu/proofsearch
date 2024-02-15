@@ -1,0 +1,113 @@
+{
+    "results": [
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_478",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_478",
+                "statement": "theorem mathd_algebra_478 (b h v : \u211d) (h\u2080 : 0 < b \u2227 0 < h \u2227 0 < v) (h\u2081 : v = 1 / 3 * (b * h))\n    (h\u2082 : b = 30) (h\u2083 : h = 13 / 2) : v = 65",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "numbertheory_4x3m7y3neq2003",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "numbertheory_4x3m7y3neq2003",
+                "statement": "theorem numbertheory_4x3m7y3neq2003 (x y : \u2124) : 4 * x ^ 3 - 7 * y ^ 3 \u2260 2003",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "aime_1983_p1",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "aime_1983_p1",
+                "statement": "theorem aime_1983_p1 (x y z w : \u2115) (ht : 1 < x \u2227 1 < y \u2227 1 < z) (hw : 0 \u2264 w)\n    (h0 : Real.log w / Real.log x = 24) (h1 : Real.log w / Real.log y = 40)\n    (h2 : Real.log w / Real.log (x * y * z) = 12) : Real.log w / Real.log z = 60",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12_2001_p5",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12_2001_p5",
+                "statement": "theorem amc12_2001_p5 :\n    Finset.prod (Finset.filter (fun x => \u00acEven x) (Finset.range 10000)) (id : \u2115 \u2192 \u2115) =\n      10000! / (2 ^ 5000 * 5000!)",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_141",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_141",
+                "statement": "theorem mathd_algebra_141 (a b : \u211d) (h\u2081 : a * b = 180) (h\u2082 : 2 * (a + b) = 54) :\n    a ^ 2 + b ^ 2 = 369",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        }
+    ],
+    "args": {
+        "model_name": "gpt4-1106-preview",
+        "dataset_name": "minif2f-test",
+        "shard": 0,
+        "resume_from": null,
+        "dataset_path": "data/minif2f.jsonl",
+        "output_dir": "output/gpt4_minif2f_test",
+        "early_stop": true,
+        "tp_degree": 1,
+        "num_shards": 1,
+        "max_iters": 100,
+        "timeout": 600,
+        "num_examples": 100,
+        "num_samples": 32,
+        "clear_process_hours": 3,
+        "temperatures": [
+            0.0
+        ]
+    }
+}
