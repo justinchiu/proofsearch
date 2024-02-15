@@ -4960,6 +4960,111 @@
                 "file_path": "MiniF2F/Test.lean",
                 "split": "test"
             }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_algebra_288",
+                    "success": false,
+                    "failure_reason": "DojoHardTimeoutError"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "mathd_algebra_288",
+                "statement": "theorem mathd_algebra_288 (x y : \u211d) (n : NNReal) (h\u2080 : x < 0 \u2227 y < 0) (h\u2081 : abs y = 6)\n    (h\u2082 : Real.sqrt ((x - 8) ^ 2 + (y - 3) ^ 2) = 15)\n    (h\u2083 : Real.sqrt (x ^ 2 + y ^ 2) = Real.sqrt n) : n = 52",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "mathd_numbertheory_127",
+                    "proof": [
+                        "tauto"
+                    ],
+                    "score": 1.12961624735035,
+                    "success": true,
+                    "failure_reason": "",
+                    "trace": [
+                        {
+                            "tactic": "tauto",
+                            "state_before": "\u22a2 (\u2211 k in Finset.range 101, 2 ^ k) % 7 = 3"
+                        }
+                    ],
+                    "temperature": [
+                        0.0
+                    ],
+                    "elapsed": -26.56926965713501,
+                    "iteration": 0
+                }
+            ],
+            "success": true,
+            "example": {
+                "full_name": "mathd_numbertheory_127",
+                "statement": "theorem mathd_numbertheory_127 : (\u2211 k in Finset.range 101, 2 ^ k) % 7 = 3",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "imo_1974_p3",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "imo_1974_p3",
+                "statement": "theorem imo_1974_p3 (n : \u2115) :\n    \u00ac5 \u2223 \u2211 k in Finset.range (n + 1), Nat.choose (2 * n + 1) (2 * k + 1) * 2 ^ (3 * k)",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "aime_1991_p9",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "aime_1991_p9",
+                "statement": "theorem aime_1991_p9 (x : \u211d) (m : \u211a) (h\u2080 : 1 / Real.cos x + Real.tan x = 22 / 7)\n    (h\u2081 : 1 / Real.sin x + 1 / Real.tan x = m) : \u2191m.den + m.num = 44",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
+        },
+        {
+            "attempt_results": [
+                {
+                    "theorem": "amc12a_2009_p6",
+                    "success": false,
+                    "failure_reason": "SearchEnded"
+                }
+            ],
+            "success": false,
+            "example": {
+                "full_name": "amc12a_2009_p6",
+                "statement": "theorem amc12a_2009_p6 (m n p q : \u211d) (h\u2080 : p = 2 ^ m) (h\u2081 : q = 3 ^ n) :\n    p ^ (2 * n) * q ^ m = 12 ^ (m * n)",
+                "url": "https://github.com/rah4927/lean-dojo-mew",
+                "commit": "d00c776260c77de7e70125ef0cd119de6c0ff1de",
+                "file_path": "MiniF2F/Test.lean",
+                "split": "test"
+            }
         }
     ],
     "args": {
