@@ -14,10 +14,10 @@ TEMPERATURES="1.0"
 MODEL="gpt4-1106-preview"
 NAME="gpt4"
 
-#DATASET="minif2f-valid"
-#OUTPUT_DIR="output/${NAME}_minif2f_valid"
-DATASET="minif2f-test"
-OUTPUT_DIR="output/${NAME}_minif2f_test"
+DATASET="minif2f-valid"
+OUTPUT_DIR="output/${NAME}_minif2f_valid"
+#DATASET="minif2f-test"
+#OUTPUT_DIR="output/${NAME}_minif2f_test"
 
 DATA="data/minif2f.jsonl"
 
