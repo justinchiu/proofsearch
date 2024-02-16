@@ -1,3 +1,6 @@
 [submodule "LeanDojo"]
 	path = LeanDojo
 	url = ssh://git@github.com/justinchiu/LeanDojo
+[submodule "proofstash"]
+	path = proofstash
+	url = ssh://git@github.com/justinchiu/proofstash
