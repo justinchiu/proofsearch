@@ -4,9 +4,11 @@ import glob
 for setting in [
     #'codellama7b_minif2f_test',
     #'codellama34b_minif2f_test',
-    'llemma7b_minif2f_valid',
-    'llemma7b_minif2f_test',
     #'llemma34b_minif2f_test'
+    #'llemma7b_minif2f_valid',
+    #'llemma7b_minif2f_test',
+    'gpt4_minif2f_valid',
+    #'gpt4_minif2f_test',
 ]:
     fs = [x for x in glob.glob('./output/%s/*/*.json' % setting)]
     for x in fs:
