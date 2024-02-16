@@ -8,10 +8,10 @@ dependencies = [
     "openai",
     "tiktoken",
     "tenacity>=8.2.3",
-    "transformers",
-    "torch",
-    "vllm",
-    "autoawq", # quantization with vllm. likely will remove this because quantization sucks.
+    #"transformers",
+    #"torch",
+    #"vllm",
+    #"autoawq", # quantization with vllm. likely will remove this because quantization sucks.
     "diskcache",
     "streamlit",
     "altair==4.0",
