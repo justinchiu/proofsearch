@@ -10,7 +10,7 @@ from pathlib import Path
 from tqdm import tqdm, trange
 import asyncio
 
-from proofsearch.prompt import client, generate
+from proofsearch.prompt import client, generate, _prompt_fewshot
 
 
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
@@ -67,7 +67,6 @@ def best_first_search(
                 )
                 step_cands = [s.strip() for s in step_cands]
 
-
                 print(step_cands)
 
                 for step, score in zip(step_cands, step_scores):
@@ -99,7 +98,6 @@ def best_first_search(
                             heapq.heappush(
                                 queue, (new_score, steps+[step], result, trace+[step_trace])
                             )
-                    import pdb; pdb.set_trace()
     except (DojoInitError, DojoHardTimeoutError, DojoCrashError, subprocess.CalledProcessError) as e:
         if len(attempt_results) == 0:
             attempt_results.append({
